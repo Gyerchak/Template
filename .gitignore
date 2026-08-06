@@ -3,3 +3,5 @@ bin/
 files/
 input/
 output/
+tmp/
+logs/
