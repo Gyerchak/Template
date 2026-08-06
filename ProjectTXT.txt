@@ -1,117 +1,5 @@
 === DIRECTORY TREE ===
 └── GameTemplate
-    ├── .git
-    │   ├── gk
-    │   │   └── config
-    │   ├── hooks
-    │   │   ├── applypatch-msg.sample
-    │   │   ├── commit-msg.sample
-    │   │   ├── fsmonitor-watchman.sample
-    │   │   ├── post-update.sample
-    │   │   ├── pre-applypatch.sample
-    │   │   ├── pre-commit.sample
-    │   │   ├── pre-merge-commit.sample
-    │   │   ├── pre-push.sample
-    │   │   ├── pre-rebase.sample
-    │   │   ├── pre-receive.sample
-    │   │   ├── prepare-commit-msg.sample
-    │   │   ├── push-to-checkout.sample
-    │   │   ├── sendemail-validate.sample
-    │   │   └── update.sample
-    │   ├── info
-    │   │   └── exclude
-    │   ├── logs
-    │   │   ├── refs
-    │   │   │   ├── heads
-    │   │   │   │   └── main
-    │   │   │   └── remotes
-    │   │   │       └── origin
-    │   │   │           ├── HEAD
-    │   │   │           └── main
-    │   │   └── HEAD
-    │   ├── objects
-    │   │   ├── 15
-    │   │   │   └── 607b61f00bf086afe943bb65560fff63f06081
-    │   │   ├── 1f
-    │   │   │   └── facfde35ed292652928b73b48c1f4dda80597f
-    │   │   ├── 23
-    │   │   │   └── 395186ca992394a91762578a3c774c957d33ad
-    │   │   ├── 28
-    │   │   │   └── 83ea3dfd391c76ae2cd328ab0e560894afedb5
-    │   │   ├── 2e
-    │   │   │   └── 5310135f02c0c636c89ed702eec82509d79f57
-    │   │   ├── 4f
-    │   │   │   └── b2675957d819b2dbe06b6fc4c7ce2b3600121f
-    │   │   ├── 51
-    │   │   │   └── f81241b036751626c0d0f46b3faee7e2fec3c8
-    │   │   ├── 53
-    │   │   │   └── 77266320e947fb7f581cc61f6efa59375065b6
-    │   │   ├── 57
-    │   │   │   └── 5b136f3463d3d04f9a4a723f0f6214cd7b82e5
-    │   │   ├── 58
-    │   │   │   ├── 084fef4da016d5121c1301e2b7c3bfd7ce2470
-    │   │   │   └── 31aeba6ef759c9d301059ce3d497b765da4825
-    │   │   ├── 5b
-    │   │   │   └── 789f50ab239b6aec8ef9f4e7286e2cb2143b3c
-    │   │   ├── 5f
-    │   │   │   └── 72259fdf4b6457a814900cf522bc08494dbf33
-    │   │   ├── 68
-    │   │   │   └── e70301d24d2793b0ec328e758d1f2e896578c3
-    │   │   ├── 75
-    │   │   │   └── 0680bd5902896da837cc760ad9eb7e82c5c53c
-    │   │   ├── 7e
-    │   │   │   └── e1dcdcad1de98217fc51579879c61cb5f985f7
-    │   │   ├── 80
-    │   │   │   └── fb6c9f1e213411ab6440d5e1a735c340021b46
-    │   │   ├── 82
-    │   │   │   └── e3a754b6a0fcb238b03c0e47d05219fbf9cf89
-    │   │   ├── 8b
-    │   │   │   └── 137891791fe96927ad78e64b0aad7bded08bdc
-    │   │   ├── 8e
-    │   │   │   └── f64071ac8ceb22d7682ebf71d03a2ced34b702
-    │   │   ├── 9b
-    │   │   │   └── 09beeec3fae80bde6ecc1fab03d2249d49f4b9
-    │   │   ├── 9e
-    │   │   │   └── 0d205d64e3148bfe1264882cc9295cb2f74287
-    │   │   ├── a8
-    │   │   │   └── b1d0714a5b4ca307ca2e583305a0e68ae33e95
-    │   │   ├── ab
-    │   │   │   └── 7edfd62fa6b4a9526465b4a60abf559a58a247
-    │   │   ├── c6
-    │   │   │   ├── 17305f6743ca8af580a3b93a323dd6156f1edf
-    │   │   │   └── 979d9b2cbed1c18f7c6493f944456bbfc713f7
-    │   │   ├── ce
-    │   │   │   └── b2f2f5ef85d8a7dafcf249332c593bba058c4f
-    │   │   ├── cf
-    │   │   │   ├── 083fb0ac35b08dc24ffdcdb2b8b9bde16714a5
-    │   │   │   └── 5c6f6f90935e0227672b36c58f9c1bf900379c
-    │   │   ├── dc
-    │   │   │   └── 1c31bfae35f665e40865c32fa6bde95a60d428
-    │   │   ├── e5
-    │   │   │   └── 5e7528e1acb20d20feb402b3e9298fee2c0528
-    │   │   ├── e6
-    │   │   │   └── 9de29bb2d1d6434b8b29ae775ad8c2e48c5391
-    │   │   ├── f4
-    │   │   │   └── 4224025f3210dc2882fde238315032593572eb
-    │   │   ├── fc
-    │   │   │   └── 4e884bd539484b0302fbf7247bd97e29ca0d3a
-    │   │   ├── info
-    │   │   └── pack
-    │   ├── refs
-    │   │   ├── heads
-    │   │   │   └── main
-    │   │   ├── remotes
-    │   │   │   └── origin
-    │   │   │       ├── HEAD
-    │   │   │       └── main
-    │   │   └── tags
-    │   ├── COMMIT_EDITMSG
-    │   ├── FETCH_HEAD
-    │   ├── HEAD
-    │   ├── ORIG_HEAD
-    │   ├── config
-    │   ├── description
-    │   └── index
     ├── bin
     ├── content
     │   ├── maps
@@ -122,6 +10,7 @@
     │   └── settings.cfg
     ├── input
     ├── logs
+    ├── obj
     ├── output
     │   └── filelist.txt
     ├── shaders
@@ -144,6 +33,10 @@
 #include <iostream>
 
 --- End of file: src/App.h ---
+
+[Warning: '.obj' does not exist or is not a directory – skipping]
+
+[Warning: '.shaders' does not exist or is not a directory – skipping]
 
 [Warning: 'include' does not exist or is not a directory – skipping]
 
